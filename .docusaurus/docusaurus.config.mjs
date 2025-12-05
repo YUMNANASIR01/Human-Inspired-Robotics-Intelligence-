@@ -7,11 +7,10 @@ export default {
   "title": "Human-Inspired Robotics & Intelligence Guide",
   "tagline": "Learning Physical AI and Robotics",
   "favicon": "img/favicon.ico",
-  "url": "https://YUMNANASIR01.github.io",
+  "url": "https://human-inspired-robotics-intelligence.vercel.app",
   "baseUrl": "/",
-  "organizationName": "yumnanasir",
+  "organizationName": "YUMNANASIR01",
   "projectName": "Human-Inspired Robotics & Intelligence Guide",
-  "deploymentBranch": "gh-pages",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -32,15 +31,12 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\new\\Human-Inspired-Robotics-Intelligence-\\sidebars.js",
+          "routeBasePath": "/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "blog": false,
         "theme": {
-          "customCss": "./src/css/custom.css"
+          "customCss": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\new\\Human-Inspired-Robotics-Intelligence-\\src\\css\\custom.css"
         }
       }
     ]
@@ -50,7 +46,7 @@ export default {
     "navbar": {
       "title": "Human-Inspired Robotics & Intelligence Guide",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Human-Inspired Robotics Logo",
         "src": "img/ph-ai-logo.png"
       },
       "items": [
@@ -61,7 +57,7 @@ export default {
           "label": "Textbook"
         },
         {
-          "href": "https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence-.git",
+          "href": "https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence",
           "label": "GitHub",
           "position": "right"
         },
@@ -82,7 +78,7 @@ export default {
           "items": [
             {
               "label": "Introduction",
-              "to": "/docs/introduction/intro"
+              "to": "/docs/intro"
             }
           ]
         },

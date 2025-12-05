@@ -5,10 +5,9 @@
   "source": "@site/docs/03-simulation/digital-twins.md",
   "sourceDirName": "03-simulation",
   "slug": "/simulation/digital-twins",
-  "permalink": "/docs/simulation/digital-twins",
+  "permalink": "/simulation/digital-twins",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-simulation/digital-twins.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -18,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ROS 2 Core Concepts",
-    "permalink": "/docs/ros2-foundations/ros2-hands-on"
+    "permalink": "/ros2-foundations/ros2-hands-on"
   },
   "next": {
     "title": "Gazebo & Unity Integration",
-    "permalink": "/docs/simulation/gazebo-unity"
+    "permalink": "/simulation/gazebo-unity"
   }
 }

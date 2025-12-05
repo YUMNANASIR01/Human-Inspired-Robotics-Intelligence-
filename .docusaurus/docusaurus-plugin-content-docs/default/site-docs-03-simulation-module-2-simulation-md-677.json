@@ -5,10 +5,9 @@
   "source": "@site/docs/03-simulation/module-2-simulation.md",
   "sourceDirName": "03-simulation",
   "slug": "/simulation/module-2-simulation",
-  "permalink": "/docs/simulation/module-2-simulation",
+  "permalink": "/simulation/module-2-simulation",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-simulation/module-2-simulation.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -26,10 +25,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Gazebo & Unity Integration",
-    "permalink": "/docs/simulation/gazebo-unity"
+    "permalink": "/simulation/gazebo-unity"
   },
   "next": {
     "title": "Module 3: Hardware Foundations & Edge AI",
-    "permalink": "/docs/hardware-basics/module-3-hardware"
+    "permalink": "/hardware-basics/module-3-hardware"
   }
 }

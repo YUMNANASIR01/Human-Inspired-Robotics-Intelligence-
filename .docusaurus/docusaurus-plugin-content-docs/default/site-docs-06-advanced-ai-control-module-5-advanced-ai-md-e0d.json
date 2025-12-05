@@ -5,10 +5,9 @@
   "source": "@site/docs/06-advanced-ai-control/module-5-advanced-ai.md",
   "sourceDirName": "06-advanced-ai-control",
   "slug": "/advanced-ai-control/module-5-advanced-ai",
-  "permalink": "/docs/advanced-ai-control/module-5-advanced-ai",
+  "permalink": "/advanced-ai-control/module-5-advanced-ai",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/06-advanced-ai-control/module-5-advanced-ai.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -26,10 +25,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VLA Vision Systems",
-    "permalink": "/docs/vla-systems/vla-vision"
+    "permalink": "/vla-systems/vla-vision"
   },
   "next": {
     "title": "Module 6: Designing Humanoid Robots",
-    "permalink": "/docs/humanoid-design/module-6-humanoid-design"
+    "permalink": "/humanoid-design/module-6-humanoid-design"
   }
 }

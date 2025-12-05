@@ -5,10 +5,9 @@
   "source": "@site/docs/05-vla-systems/vla-vision.md",
   "sourceDirName": "05-vla-systems",
   "slug": "/vla-systems/vla-vision",
-  "permalink": "/docs/vla-systems/vla-vision",
+  "permalink": "/vla-systems/vla-vision",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-vla-systems/vla-vision.md",
   "tags": [],
   "version": "current",
   "frontMatter": {
@@ -18,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "VLA Language Systems",
-    "permalink": "/docs/vla-systems/vla-language"
+    "permalink": "/vla-systems/vla-language"
   },
   "next": {
     "title": "Module 5: Advanced AI & Control",
-    "permalink": "/docs/advanced-ai-control/module-5-advanced-ai"
+    "permalink": "/advanced-ai-control/module-5-advanced-ai"
   }
 }

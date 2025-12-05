@@ -6,12 +6,12 @@ const config = {
   tagline: 'Learning Physical AI and Robotics',
   favicon: 'img/favicon.ico',
 
-  url: 'https://YUMNANASIR01.github.io',
+  // ✅ Vercel settings
+  url: 'https://human-inspired-robotics-intelligence.vercel.app',
   baseUrl: '/',
-
-  organizationName: 'yumnanasir',
+  
+  organizationName: 'YUMNANASIR01',
   projectName: 'Human-Inspired Robotics & Intelligence Guide',
-  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,105 +30,98 @@ const config = {
   presets: [
     [
       'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/', // ✅ Serve docs at root URL
+          // Remove editUrl or update it
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false, // ✅ Disable blog if not using
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
 
-  themeConfig: ({
-    image: 'img/ph-ai-logo.png',
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      image: 'img/ph-ai-logo.png',
 
-    navbar: {
-      title: 'Human-Inspired Robotics & Intelligence Guide',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/ph-ai-logo.png',
+      navbar: {
+        title: 'Human-Inspired Robotics & Intelligence Guide',
+        logo: {
+          alt: 'Human-Inspired Robotics Logo',
+          src: 'img/ph-ai-logo.png',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Textbook',
+          },
+          {
+            href: 'https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence',
+            label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+        ],
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Textbook',
-        },
-        {
-          href: 'https://github.com/YUMNANASIR01/Human-Inspired-Robotics-Intelligence-.git',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-      ],
-    },
 
-    // ✅ FIXED FOOTER (valid multi-column)
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Introduction',
-              to: '/docs/introduction/intro',
-            },
-          ],
-        },
-        {
-          title: 'Social Profiles',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://instagram.com/',
-            },
-            {
-              label: 'LinkedIn',
-              href: 'https://linkedin.com/',
-            },
-            {
-              label: 'Twitter (X)',
-              href: 'https://twitter.com/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/YUMNANASIR01',
-            },
-          ],
-        },
-      ],
-      copyright: `© ${new Date().getFullYear()} Human-Inspired Robotics & Intelligence Guide — Built with ❤️ by Yumna Nasir.`,
-    },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Introduction',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Social Profiles',
+            items: [
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/',
+              },
+              {
+                label: 'Twitter (X)',
+                href: 'https://twitter.com/',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/YUMNANASIR01',
+              },
+            ],
+          },
+        ],
+        copyright: `© ${new Date().getFullYear()} Human-Inspired Robotics & Intelligence Guide — Built with ❤️ by Yumna Nasir.`,
+      },
 
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  }),
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
 };
 
 export default config;
-
-
-
-
-

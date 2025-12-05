@@ -14,7 +14,7 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://YUMNANASIR01.github.io",
+      "url": "https://human-inspired-robotics-intelligence.vercel.app",
       "baseUrl": "/"
     },
     "ur": {
@@ -24,7 +24,7 @@
       "calendar": "gregory",
       "path": "ur",
       "translate": true,
-      "url": "https://YUMNANASIR01.github.io",
+      "url": "https://human-inspired-robotics-intelligence.vercel.app",
       "baseUrl": "/ur/"
     }
   }
