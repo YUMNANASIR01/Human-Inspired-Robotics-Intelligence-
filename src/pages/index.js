@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link";
 export default function Home() {
   return (
     <Layout
-      title="Human-Inspired Robotics & Intelligence Guide"
+      title="Physical AI and Humanoid Robotics"
       description="Complete AI-Native textbook for mastering robotics, humanoids, ROS2, VLA systems, and digital twins."
     >
       {/* HERO SECTION */}
@@ -17,7 +17,7 @@ export default function Home() {
         }}
       >
         <h1 style={{ fontSize: "54px", fontWeight: "bold", marginBottom: "20px" }}>
-          Human-Inspired Robotics & Intelligence Guide Textbook
+          Physical AI and Humanoid Robotics Textbook
         </h1>
         <p style={{ fontSize: "22px", maxWidth: "850px", margin: "0 auto", lineHeight: "1.6" }}>
         Learn the future of robotics through a practical, 
@@ -34,7 +34,7 @@ export default function Home() {
        marginTop : "20px",
        padding: "11px 20px"
       }}
-       to="/docs/introduction/intro"
+       to="/introduction/intro"
 >
        Start Reading →
      </Link>
@@ -42,20 +42,22 @@ export default function Home() {
       </header>
 
       {/* ABOUT SECTION */}
-      <section style={{ padding: "60px 20px", maxWidth: "1000px", margin: "0 auto" }}>
-        <h2 style={{ fontSize: "36px", marginBottom: "20px", textAlign: "center" }}>
+      <section style={{ padding: "60px 20px", maxWidth: "1000px", margin: "0 auto", marginTop:'10px' }}>
+        <h2 style={{ fontSize: "36px", marginBottom: "50px", textAlign: "center" }}>
           What This Textbook Covers
         </h2>
-        <p style={{ fontSize: "20px", lineHeight: "1.7", color: "#444", textAlign: "center" }}>
+        <div>
+        <p style={{ fontSize: "18px", lineHeight: "1.6", color: "black", textAlign: "center", height :"120px"}}>
           This is a complete AI-native engineering curriculum designed for physical AI, humanoid robots,
           embodied intelligence, ROS 2 programming, digital twin simulations, and Vision-Language-Action
           (VLA) systems. Each module builds your robotics superpowers step by step.
         </p>
+        </div>
       </section>
 
       {/* MODULE CARDS */}
-      <section style={{ padding: "60px 20px", background: "#f9fafc" }}>
-        <h2 style={{ fontSize: "32px", marginBottom: "40px", textAlign: "center" }}>
+      <section style={{ padding: "60px 20px", background: "#e8e8eaff" }}>
+        <h2 style={{ fontSize: "32px", marginBottom: "40px", textAlign: "center",color: "#0c0c0cff" }}>
           Explore All Modules
         </h2>
 
@@ -66,6 +68,7 @@ export default function Home() {
             gap: "25px",
             maxWidth: "1200px",
             margin: "0 auto",
+            color: "#0f0e0eff"
           }}
         >
           {/* MODULE 1 */}
@@ -75,7 +78,7 @@ export default function Home() {
               Learn ROS 2 — the nervous system of modern robots. Build nodes, topics,
               services, actions, publishers, subscribers, QoS, and real robot workflows.
             </p>
-            <Link style={cardBtn} to="/docs/ros2-foundations/module-1-ros2">
+            <Link style={cardBtn} to="/ros2-foundations/module-1-ros2">
               Open Module →
             </Link>
           </div>
@@ -87,7 +90,7 @@ export default function Home() {
               Master simulation systems: Gazebo, Unity Robotics, Isaac Sim, and digital
               twin workflows for training and testing robots safely.
             </p>
-            <Link style={cardBtn} to="/docs/simulation/module-2-simulation">
+            <Link style={cardBtn} to="/simulation/module-2-simulation">
               Open Module →
             </Link>
           </div>
@@ -99,7 +102,7 @@ export default function Home() {
               Motors, actuators, torque control, IMUs, sensors, microcontrollers,
               embedded systems — everything real humanoids need.
             </p>
-            <Link style={cardBtn} to="/docs/hardware-basics/module-3-hardware">
+            <Link style={cardBtn} to="/hardware-basics/module-3-hardware">
               Open Module →
             </Link>
           </div>
@@ -111,7 +114,7 @@ export default function Home() {
               Learn the most advanced robotics architecture: perception models,
               LLM-driven command systems, action planners, and embodied AI agents.
             </p>
-            <Link style={cardBtn} to="/docs/vla-systems/module-4-vla-foundations">
+            <Link style={cardBtn} to="/vla-systems/module-4-vla-foundations">
               Open Module →
             </Link>
           </div>
@@ -123,7 +126,7 @@ export default function Home() {
               Reinforcement learning, motion planning, MPC, trajectory optimization,
               and how robots think and move intelligently.
             </p>
-            <Link style={cardBtn} to="/docs/advanced-ai-control/module-5-advanced-ai">
+            <Link style={cardBtn} to="/advanced-ai-control/module-5-advanced-ai">
               Open Module →
             </Link>
           </div>
@@ -135,7 +138,7 @@ export default function Home() {
               Learn end-to-end humanoid creation: mechanical design, kinematics, actuators,
               morphologies, energy systems, and AI-driven movement.
             </p>
-            <Link style={cardBtn} to="/docs/humanoid-design/module-6-humanoid-design">
+            <Link style={cardBtn} to="/humanoid-design/module-6-humanoid-design">
               Open Module →
             </Link>
           </div>
@@ -147,7 +150,7 @@ export default function Home() {
               Glossary, research papers, references, external resources, and further reading
               for mastering robotics and AI.
             </p>
-            <Link style={cardBtn} to="/docs/appendix/glossary">
+            <Link style={cardBtn} to="/appendix/glossary">
               Open Appendix →
             </Link>
           </div>
@@ -155,8 +158,8 @@ export default function Home() {
       </section>
 
       {/* FEATURES SECTION */}
-      <section style={{ padding: "80px 20px", background: "white" }}>
-        <h2 style={{ textAlign: "center", fontSize: "34px", marginBottom: "50px" }}>
+      <section style={{ padding: "80px 20px",  background: "white", }}>
+        <h2 style={{ textAlign: "center", fontSize: "34px", marginBottom: "50px",             color: "black", }}>
           Why This Textbook is AI-Native & Future-Focused
         </h2>
 
@@ -170,27 +173,26 @@ export default function Home() {
           }}
         >
           <div style={featureBox}>
-            <h3>AI-Driven Design</h3>
-            <p>
+            <h3 style={{ color: "white", fontSize: "20px" }}>AI-Driven Design</h3>
+            <p style={{ color: "lightgray", fontSize: "16px" }}>
               Built fully around modern robotics workflows, from LLM agents to VLA systems
               and intelligent controllers.
             </p>
           </div>
 
           <div style={featureBox}>
-            <h3>Hands-On Learning</h3>
-            <p>
+            <h3 style={{ color: "white", fontSize: "20px" }}>Hands-On Learning</h3>
+            <p style={{ color: "lightgray", fontSize: "16px" }}>
               Every module includes practical steps, code examples, simulations, and
               real robot applications.
             </p>
           </div>
 
           <div style={featureBox}>
-            <h3>Industry-Inspired Curriculum</h3>
-            <p>
-           Built around the same principles used by Tesla Bot, Figure AI, Apptronik, and Sanctuary AI, this content reflects the reality of modern humanoid robotics pipelines.
-            </p>
-          </div>
+            <h3 style={{ color: "white", fontSize: "20px" }}>Industry-Inspired Curriculum</h3>
+                        <p style={{ color: "lightgray", fontSize: "16px" }}>
+                           Built around the same principles used by Tesla Bot, Figure AI, Apptronik, and Sanctuary AI, this content reflects the reality of modern humanoid robotics pipelines.
+                        </p>          </div>
         </div>
       </section>
 
@@ -207,10 +209,13 @@ export default function Home() {
           Begin Your Robotics Journey
         </h2>
         <p style={{ fontSize: "20px", marginBottom: "40px", color: "#ccc" }}>
-        Tomorrow is driven by embodied intelligence and humanoid robotics.
-         Start building your mastery today.
-        </p>
-
+        Embodied intelligence is shaping the next generation of robotics.
+        Humanoid machines are redefining possibility.
+        Physical AI is bridging the gap between humans and machines.
+        A new era of human-centered robotics is unfolding.
+       Innovation is accelerating faster than ever before.
+       Begin your journey of mastery today. 
+        </p> 
           <Link
        className="button button--lg"
       style={{ 
@@ -219,7 +224,7 @@ export default function Home() {
       borderRadius: "5px",
        padding: "11px 20px"
       }}
-       to="/docs/introduction/intro"
+       to="/introduction/intro"
 >
        Start Reading →
      </Link>
@@ -245,7 +250,7 @@ const cardTitle = {
 
 const cardText = {
   fontSize: "16px",
-  color: "#555",
+  color: "#100f0fff",
   marginBottom: "20px",
   lineHeight: "1.5",
 };
@@ -262,7 +267,7 @@ const cardBtn = {
 
 const featureBox = {
   padding: "25px",
-  background: "#f5f7fa",
+  background: "#444546ff",
   borderRadius: "10px",
   textAlign: "left",
 };

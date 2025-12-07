@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Human-Inspired Robotics & Intelligence Guide",
+  "title": "Physical AI and Humanoid Robotics",
   "tagline": "Learning Physical AI and Robotics",
   "favicon": "img/favicon.ico",
   "url": "https://human-inspired-robotics-intelligence.vercel.app",
   "baseUrl": "/",
   "organizationName": "YUMNANASIR01",
-  "projectName": "Human-Inspired Robotics & Intelligence Guide",
+  "projectName": "Physical AI and Humanoid Robotics",
   "onBrokenLinks": "ignore",
   "i18n": {
     "defaultLocale": "en",
@@ -31,12 +31,12 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\new\\Human-Inspired-Robotics-Intelligence-\\sidebars.js",
+          "sidebarPath": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\New folder\\physical-ai-and-humanoid-robotics\\sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\new\\Human-Inspired-Robotics-Intelligence-\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\HAJI LAPTOP G55\\Desktop\\New folder\\physical-ai-and-humanoid-robotics\\src\\css\\custom.css"
         }
       }
     ]
@@ -44,7 +44,7 @@ export default {
   "themeConfig": {
     "image": "img/ph-ai-logo.png",
     "navbar": {
-      "title": "Human-Inspired Robotics & Intelligence Guide",
+      "title": "Physical AI and Humanoid Robotics",
       "logo": {
         "alt": "Human-Inspired Robotics Logo",
         "src": "img/ph-ai-logo.png"
@@ -78,7 +78,7 @@ export default {
           "items": [
             {
               "label": "Introduction",
-              "to": "/docs/intro"
+              "to": "/intro"
             }
           ]
         },
@@ -109,7 +109,7 @@ export default {
           ]
         }
       ],
-      "copyright": "© 2025 Human-Inspired Robotics & Intelligence Guide — Built with ❤️ by Yumna Nasir."
+      "copyright": "© 2025 Physical AI and Humanoid Robotics — Built with ❤️ by Yumna Nasir."
     },
     "prism": {
       "theme": {
