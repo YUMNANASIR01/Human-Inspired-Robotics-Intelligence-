@@ -81,26 +81,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ur/appendix/glossary",
-              "path": "/ur/appendix/glossary",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "ur/intro",
-              "path": "/ur/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "ur/introduction/intro",
-              "path": "/ur/introduction/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "ur/ros2-foundations/module-1-ros2",
-              "path": "/ur/ros2-foundations/module-1-ros2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "vla-systems/module-4-vla-foundations",
               "path": "/vla-systems/module-4-vla-foundations",
               "sidebar": "tutorialSidebar"

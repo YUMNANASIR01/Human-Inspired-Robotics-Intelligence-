@@ -74,15 +74,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f4b'),
+    component: ComponentCreator('/', '33a'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'daa'),
+        component: ComponentCreator('/', '410'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '936'),
+            component: ComponentCreator('/', 'a17'),
             routes: [
               {
                 path: '/advanced-ai-control/module-5-advanced-ai',
@@ -165,30 +165,6 @@ export default [
               {
                 path: '/simulation/module-2-simulation',
                 component: ComponentCreator('/simulation/module-2-simulation', 'ded'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/ur/appendix/glossary',
-                component: ComponentCreator('/ur/appendix/glossary', 'd90'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/ur/intro',
-                component: ComponentCreator('/ur/intro', '46f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/ur/introduction/intro',
-                component: ComponentCreator('/ur/introduction/intro', 'e46'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/ur/ros2-foundations/module-1-ros2',
-                component: ComponentCreator('/ur/ros2-foundations/module-1-ros2', 'ce0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

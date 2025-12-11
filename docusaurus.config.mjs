@@ -14,7 +14,12 @@ const config = {
   projectName: 'Physical AI and Humanoid Robotics',
 
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',

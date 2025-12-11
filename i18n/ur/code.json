@@ -95,10 +95,10 @@
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "ایک دستاویز ٹیگ شدہ|{count} دستاویزات ٹیگ شدہ",
-    "description": "Pluralized label for "{count} docs tagged". Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": ""{tagName}" کے ساتھ {nDocsTagged}",
+    "message": "\"{tagName}\" کے ساتھ {nDocsTagged}",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
@@ -210,7 +210,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "براہ کرم اس سائٹ کے مالک سے رابطہ کریں جس نے آپ کو اصل URL سے لنک کیا تھا اور انہیں بتائیں کہ ان کا لنک ٹوٹا ہوا ہے۔",
+    "message": "براہ کرم اس سائیٹ کے مالک سے رابطہ کریں جس نے آپ کو اصل URL سے لنک کیا تھا اور انہیں بتائیں کہ ان کا لنک ٹوٹا ہوا ہے۔",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -227,7 +227,7 @@
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "ایک منٹ میں پڑھیں|{readingTime} منٹ میں پڑھیں",
-    "description": "Pluralized label for "{readingTime} min read". Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
     "message": "کاپی کریں",
@@ -291,10 +291,10 @@
   },
   "theme.blog.post.plurals": {
     "message": "ایک پوسٹ|{count} پوسٹس",
-    "description": "Pluralized label for "{count} posts". Use as much plural forms (separated by "|") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": ""{tagName}" کے ساتھ ٹیگ شدہ {nPosts}",
+    "message": "\"{tagName}\" کے ساتھ ٹیگ شدہ {nPosts}",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
